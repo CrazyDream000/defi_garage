@@ -1,3 +1,53 @@
 .font-main{
   font-family: 'Inconsolata', monospace;
 }
+
+.gradient {
+  background: linear-gradient(96.19deg,#EBFF00 -3.13%,#ACFF00 33.31%,#8AFF00 65.13%,#00FF00 102.88%),linear-gradient(96.35deg,#FD771F -3.1%,#FDCC1F 35.16%,#A5FF5E 73.42%,#69FF94 111.68%);
+}
+
+.garage.svelte-vnm42n {
+  background-image: url('./assets/img/download.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.caution-tape.svelte-1d3hkna {
+  background: repeating-linear-gradient(45deg,#EBFF00,#EBFF00 10px,black 10px,black 20px);
+  width: 100%;
+  color: transparent;
+  opacity: .75;
+}
+
+.project1.svelte-1d3hkna {
+  background-image: url(./assets/img/lab1.jpg);
+}
+
+.project2.svelte-1d3hkna {
+  background-image: url(./assets/img/lab1.jpg);
+}
+
+.project3.svelte-1d3hkna {
+  background-image: url(./assets/img/lab1.jpg);
+}
+
+.project1.svelte-1d3hkna:after, .project2.svelte-1d3hkna:after, .project3.svelte-1d3hkna:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000b3;
+  z-index: 1;
+}
+
+.footer-container{
+  position: relative;
+}
+
+.footer-container{
+  background-image: url(./assets/img/teamBack.png);
+}
